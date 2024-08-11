@@ -1,0 +1,236 @@
+/* Universal Selection */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.playwrite-cu{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
+  .inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
+/* Shared Style */
+:root{
+    --primary-text: white;
+    --secondary-text:rgba(255, 255, 255, 0.5);
+}
+.bg-light{
+    background-color: black;
+    color: #ffffff;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.primary-color{
+    color:#E6533C;
+}
+
+.secondary-color{
+    color:#B9B9B9;
+}
+
+.btn-primary{
+    padding:15px 40px;
+    border-radius:42px;
+    background-color: #E6533C;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn-download{
+    padding:15px 40px;
+    border-radius:42px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid white;
+}
+
+.bg-secondary{
+    background-color:rgba(17, 17, 17, 1) ;
+}
+.gym-tips,.navbar, .banner,.habits,.bmi-chart{
+    max-width: 1044px;
+    margin: 0 auto;
+}
+
+
+
+/* Nav-Bar Styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    
+}
+
+.brand{
+    font-size:3rem;
+    font-weight:600;
+    margin-bottom: 20px;
+    font-style: italic;
+} 
+
+.nav-link{
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-items{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:500;
+    color: white;
+}
+
+.navbar ul li:first-child{
+    background-color: #E6533C;
+    padding: 5px 20px;
+    border-radius: 42px;
+}
+
+.navbar>ul{
+    border: 1px solid rgba(245, 245, 245, 0.466);
+    border-radius: 42px;
+    padding: 3px;
+}
+
+
+
+
+/* banner styles */
+
+.banner{
+    justify-content: space-between;
+    background-image: url(/images/image1.png);
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.banner-content{
+    max-width:600px;
+    line-height:110px;
+}
+.banner-title{
+    color:var(--primary-text);
+    font-size: 4.8rem;
+}
+
+.banner-description{
+    line-height: 30px;
+    color: var(--secondary-text);
+}
+
+.hero{
+
+}
+.banner-image{
+    background-size:contain;
+}
+
+.box{
+
+}
+.box-1{
+    background-color: #fdfdfd0e;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.box-2{
+    background-color: #fdfdfd0e;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Change Your Habits Section */
+
+.habits{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.habit-title{
+    font-size:3.3rem ;
+}
+
+.habit-description{
+    max-width: 670px;
+    margin: 20px auto;
+    color: var(--secondary-text);
+}
+
+.habit-cards{
+    justify-content: space-around;
+}
+.card{
+    max-width: 230px;
+    margin-top: 58px;
+}
+.card img{
+    border-radius: 50%;
+    border: 2px solid #B9B9B9;
+}
+.card-title{
+    color: var(--primary-text);
+    margin: 10px 0;
+}
+.card-description{
+    color: var(--secondary-text);
+}
+
+/* Run an Extra Mile Easily section*/
+
+.gym-tips{
+    background-color: #222222;
+    padding: 50px 50px;
+    gap:100px;
+    border-radius: 12px;
+    margin: 100px auto;
+}
+
+.gym-tips-contents{
+    max-width: 45%;
+}
+.gym-tips-title{
+    color: var(--primary-text);
+    font-size: 3.2rem;
+}
+
+.gym-tips-description{
+    color: var(--secondary-text);
+    font-size: 1rem;
+    margin: 20px 0;
+    line-height:25px;
+}
+
+.gym-tips-img{
+    width: 55%;
+    align-items: center;
+}
+.gym-image{
+    width: 100%;
+    border-radius: 12px;
+}
+
