@@ -68,8 +68,6 @@
     margin: 0 auto;
 }
 
-
-
 /* Nav-Bar Styles */
 .navbar{
     justify-content: space-between;
@@ -115,8 +113,6 @@
 }
 
 
-
-
 /* banner styles */
 
 .banner{
@@ -148,19 +144,34 @@
 }
 
 .box{
+ position: relative;
 
 }
 .box-1{
+    display: inline-block;
+    padding: 20px 25px;
     background-color: #fdfdfd0e;
-    padding: 20px 20px;
     border-radius: 10px;
+    margin-top: 100px;
+    margin-right: -30px;
 }
-
+.dot{
+    background-color: #E6533C;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+}
 .box-2{
+    position: absolute;
     background-color: #fdfdfd0e;
-    padding: 20px 30px;
     border-radius: 10px;
-    position: relative;
+    /* display: inline-block; */
+    padding: 15px 30px;
+    left: -280px;
+    top: 350px;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
 }
 
 /* Change Your Habits Section */
