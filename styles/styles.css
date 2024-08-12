@@ -74,7 +74,13 @@
 .bg-secondary{
     background-color:rgba(17, 17, 17, 1) ;
 }
-.gym-tips,.navbar, .banner,.habits, .bmi-container, .team-container, footer{
+.gym-tips,
+.navbar, 
+.banner,
+.habits,
+.bmi-container,
+.team-container, 
+footer{
     max-width:60%;
     margin: 0 auto;
 }
@@ -377,11 +383,21 @@ input[type=button], input[type=submit]{
     border-radius: 15px;
 }
 
-.team-1, .team-2, .team-3, .team-4, .team-5, .team-6{
+.team-1, 
+.team-2, 
+.team-3, 
+.team-4, 
+.team-5, 
+.team-6{
     position: relative;
 }
 
-.info-1, .info-2, .info-3, .info-4, .info-5, .info-6{
+.info-1, 
+.info-2, 
+.info-3, 
+.info-4, 
+.info-5, 
+.info-6{
     position: absolute;
     bottom: 20px;
     left: 10px;
