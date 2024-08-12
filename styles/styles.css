@@ -4,9 +4,13 @@
     margin: 0;
     padding: 0;
 }
+
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Whisper&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .playwrite-cu{
     font-family: "Playwrite CU", cursive;
@@ -20,6 +24,12 @@
     font-weight:400;
     font-style: normal;
   }
+
+.whisper-regular{
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
 /* Shared Style */
 :root{
     --primary-text: white;
@@ -63,7 +73,7 @@
 .bg-secondary{
     background-color:rgba(17, 17, 17, 1) ;
 }
-.gym-tips,.navbar, .banner,.habits,.bmi-chart{
+.gym-tips,.navbar, .banner,.habits,.bmi-chart, .team-container{
     max-width: 1044px;
     margin: 0 auto;
 }
@@ -117,7 +127,7 @@
 
 .banner{
     justify-content: space-between;
-    background-image: url(/images/image1.png);
+    background-image: url(images/image1.png);
     background-size:contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -244,4 +254,113 @@
     width: 100%;
     border-radius: 12px;
 }
+
+/* Team Section */
+
+.team-container{
+    text-align: center;
+}
+
+.team-container h1{
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+}
+
+.team-container p{
+    font-size: 1rem;
+    font-weight:400;
+    color: var(--secondary-text);
+    width: 670px;
+    margin: 0 auto;
+}
+
+.our-team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.our-team h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.our-team p{
+    font-size: 14px;
+    color: var(--secondary-text);
+    font-weight: 200;
+}
+
+.team-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.team-1{
+    position: relative;
+}
+
+.info-1{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    text-align: left;
+}
+.team-2{
+    position: relative;
+}
+
+.info-2{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    text-align: left;
+}
+.team-3{
+    position: relative;
+}
+
+.info-3{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    text-align: left;
+}
+.team-4{
+    position: relative;
+}
+
+.info-4{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    text-align: left;
+}
+.team-5{
+    position: relative;
+}
+
+.info-5{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    text-align: left;
+}
+.team-6{
+    position: relative;
+}
+
+.info-6{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    text-align: left;
+}
+
 
