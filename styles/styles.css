@@ -89,8 +89,11 @@ footer{
 .navbar{
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
-    
+    padding: 20px 20px; 
+}
+
+.navbar>i{
+    display: none;
 }
 
 .brand{
@@ -170,6 +173,7 @@ footer{
     border-radius: 50%;
 }
 .box-2{
+    width: 110px;
     font-size: 1rem;
     position: absolute;
     background-color: rgba(48, 48, 48, 0.54);
@@ -460,10 +464,160 @@ input[type=button], input[type=submit]{
 .copy-right{
     text-align: center;
     margin-bottom:30px;
-    border-top: 1px solid var(--secondary-text);
+    /* border-top: 1px solid var(--secondary-text); */
 }
 
 .copy-right h4{
     margin-top:50px;
     color: var(--secondary-text);
 }
+
+.line{
+    margin: 0 auto;
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary-text);
+}
+
+/* Mobile Responsive */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+  .navbar>ul{
+    display: none;
+ }   
+  
+ .navbar>i{
+    display:initial ;
+    font-size: 25px;
+ }
+
+ .navbar{
+    max-width: 100%;
+    flex-direction: row;
+ }
+    /* Banner Section Responsive */
+ .banner{
+    max-width: 100%;
+    flex-direction: column;
+    margin: 0 20px;
+ }
+
+ .banner-title {
+    color: var(--primary-text);
+    font-size: 3.8rem;
+    font-weight: 800;
+    line-height: 65px;
+    margin-bottom: 20px;
+ }
+
+ .box-1{
+    top:50px;
+    left: 190px;
+ }
+ .box-2{
+    left: -10px;
+    top: 270px;
+ }
+ /* Habit Section Responsive */
+
+ .habits{
+    max-width: 100%;
+ }
+
+ .habit-title{
+    font-size: 2rem;
+ }
+ .habit-description {
+    line-height: 35px;
+    width: 80%;
+ }
+ .habit-cards{
+    gap:30px;
+    flex-direction: column;
+ }
+ .card{
+    margin: 0 auto;
+ }
+ /* gym tips section */
+ .gym-tips{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
+    margin: 100px 20px;
+    max-width: 100%;
+    gap: 50px;
+ }
+
+ .gym-tips-title{
+    font-size: 2.2rem;
+    font-weight: 800;
+ }
+ /* BMI Section */
+ .bmi-form{
+    margin: 20px 20px;
+ }
+
+ .bmi-form h1{
+    margin: 10px 0;
+    font-size: 1rem;
+ }
+
+ .bmi-container{
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+ }
+
+ .bmi-chart{
+    margin: 0 20px;
+ }
+ .bmi-chart h1{
+    width: 100%;
+    font-size: 1rem;
+ }
+ .bmi-form form{
+    margin: 30px 0;
+ }
+ /* Team Section Responsive */
+ .team-container{
+    max-width: 90%;
+ }
+ .team-container h1{
+    font-size: 2.2rem;
+    font-weight: 800;
+ }
+ .team-container p{
+    width: 80%;
+ }
+ .our-team{
+    grid-template-columns: repeat(1, 1fr);
+ }
+ .team-1, .team-4{
+    display: none;
+ }
+
+ footer{
+    max-width: 100%;
+ }
+
+ .footer-container{
+    margin: 100px 20px;
+    flex-direction: column;
+ }
+
+ .menu{
+    flex-direction: column;
+    align-items: flex-start;
+ }
+ .copy-right{
+    border: top width 80%;
+ }
+ .copy-right h4{
+    font-size: 14px;
+    margin-top: 30px;
+ }
+ .line{
+    width: 90%;
+ }
+}
+    
