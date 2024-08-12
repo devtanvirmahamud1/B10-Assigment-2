@@ -73,7 +73,7 @@
 .bg-secondary{
     background-color:rgba(17, 17, 17, 1) ;
 }
-.gym-tips,.navbar, .banner,.habits,.bmi-chart, .team-container{
+.gym-tips,.navbar, .banner,.habits, .bmi-container, .team-container, footer{
     max-width: 1044px;
     margin: 0 auto;
 }
@@ -220,6 +220,82 @@
 .card-description{
     color: var(--secondary-text);
 }
+/* BMI Chart Section */
+.bmi-calculator{
+    margin: 100px auto;
+}
+
+.bmi-chart h1{
+    margin-bottom: 30px;
+    width: 40%;
+}
+.bmi-chart table, th, td {
+    padding: 10px;
+    border: 1px solid var(--secondary-text);
+    border-collapse: collapse;
+    text-align: left;
+    color: var(--secondary-text);
+}
+
+.bmi-chart table, th{
+    color: white;
+}
+
+.bmi-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+
+}
+.bmi-form h1{
+    margin-bottom: 15px;
+}
+
+.bmi-form P{
+    font-size: 14px;
+    color: var(--secondary-text);
+}
+.bmi-form form{
+    margin: 50px auto;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+}
+
+input[type=text] {
+    width: 100%;
+    border: none;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color:var(--secondary-text);
+    border-radius: 8px; 
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 1; 
+  }
+
+
+select {
+    border-radius: 8px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.781);
+    padding: 12px 20px;
+    border: none;
+    background-color: var(--secondary-text);
+}
+
+input[type=button]{
+    font-weight: 600;
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 42px;
+  }
 
 /* Run an Extra Mile Easily section*/
 
@@ -302,61 +378,11 @@
     border-radius: 15px;
 }
 
-.team-1{
+.team-1, .team-2, .team-3, .team-4, .team-5, .team-6{
     position: relative;
 }
 
-.info-1{
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-    text-align: left;
-}
-.team-2{
-    position: relative;
-}
-
-.info-2{
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-    text-align: left;
-}
-.team-3{
-    position: relative;
-}
-
-.info-3{
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-    text-align: left;
-}
-.team-4{
-    position: relative;
-}
-
-.info-4{
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-    text-align: left;
-}
-.team-5{
-    position: relative;
-}
-
-.info-5{
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-    text-align: left;
-}
-.team-6{
-    position: relative;
-}
-
-.info-6{
+.info-1, .info-2, .info-3, .info-4, .info-5, .info-6{
     position: absolute;
     bottom: 20px;
     left: 10px;
@@ -364,3 +390,65 @@
 }
 
 
+/* Footer Section Design */
+
+.footer-container{
+    margin: 100px auto;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.footer-content{
+    max-width: 450px ;
+}
+
+.footer-content h1{
+    font-size: 4.4rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.footer-content p{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.menu{
+    gap:60px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-menu-1 li{
+    list-style: none; 
+    margin-top: 20px;
+}
+
+.footer-menu-1 a{
+    text-decoration: none;
+    color: var(--secondary-text);
+    margin-top: 10px;
+}
+
+.footer-menu-2 li{
+    list-style: none; 
+    margin-top: 20px;
+}
+
+.footer-menu-2 a{
+    text-decoration: none;
+    color: var(--secondary-text);
+    margin-top: 10px;
+}
+
+.copy-right{
+    text-align: center;
+    margin-bottom:30px;
+    border-top: 1px solid var(--secondary-text);
+}
+
+.copy-right h4{
+    margin-top:50px;
+    color: var(--secondary-text);
+}
