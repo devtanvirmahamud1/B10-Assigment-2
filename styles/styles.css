@@ -127,7 +127,7 @@
 
 .banner{
     justify-content: space-between;
-    background-image: url(images/image1.png);
+    background-image: url(../images/image1.png);
     background-size:contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -223,6 +223,8 @@
 /* BMI Chart Section */
 .bmi-calculator{
     margin: 100px auto;
+    background-color: #222222;
+    padding: 50px 0 10px 0;
 }
 
 .bmi-chart h1{
@@ -258,7 +260,7 @@
 .bmi-form form{
     margin: 50px auto;
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 2fr;
     gap: 10px;
     
 }
@@ -291,11 +293,15 @@ input[type=button]{
     background-color: #E6533C;
     border: none;
     color: white;
-    padding: 12px 40px;
+    padding: 12px 50px;
     text-decoration: none;
     cursor: pointer;
     border-radius: 42px;
-  }
+}
+
+#span{
+    grid-column: span 2;
+}
 
 /* Run an Extra Mile Easily section*/
 
