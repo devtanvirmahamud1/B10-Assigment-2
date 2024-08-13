@@ -713,6 +713,5 @@ input[type=button], input[type=submit]{
     transform: rotateY(calc(var(--i)*45deg)) translateZ(190px);
   }
 
-
 }
     
