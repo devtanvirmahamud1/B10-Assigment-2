@@ -161,7 +161,7 @@ footer{
 .box-1{
     font-size: 1rem;
     position: absolute;
-    width: 110px;
+    width: 160px;
     padding: 20px 25px;
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 10px;
@@ -175,7 +175,7 @@ footer{
     border-radius: 50%;
 }
 .box-2{
-    width: 110px;
+    width: 170px;
     font-size: 1rem;
     position: absolute;
     background-color: rgba(48, 48, 48, 0.54);
@@ -586,6 +586,7 @@ input[type=button], input[type=submit]{
  .box-2{
     left: -10px;
     top: 270px;
+    
  }
  /* Habit Section Responsive */
 
